@@ -143,31 +143,6 @@ section{
 .btn:hover{
     transform: scale(0.9);
 }
-.btn2{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--text-color);
-    margin-left: 35px;
-}
-.btn2 span i{
-    height: 55px;
-    width: 55px;
-    background: var(--main-color);
-    color: var(--text-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 35px;
-    border-radius: 50%;
-    margin-right: 15px;
-    transition: all .45s ease;
-}
-.btn2 span i:hover{
-    transform: scale(1.1) translateY(5px);
-}
 header .sticky{
     background: var(--bg-color);
     border-bottom: 1px solid #ffffff1a;
@@ -184,6 +159,7 @@ header .sticky{
     height: auto;
     width: 100%;
     border-radius: 8px;
+    box-shadow: -8px -8px 15px rgb(28, 28, 29), 5px 5px 15px rgb(30, 30, 31);
 }
 .about-text h2{
     font-size: var(--h2-font);
@@ -277,11 +253,12 @@ header .sticky{
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
+    box-shadow: -8px -8px 15px rgba(58, 58, 61, 0.2), 5px 5px 15px rgba(36, 36, 37, 0.1);
 }
 .layer{
     width: 100%;
     height: 50%;
-    background: linear-gradient(rgba(0,0,0,0.1), #e91155);
+    background: linear-gradient(rgba(0,0,0,0.1), #ad1d1d);
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -420,11 +397,4 @@ header .sticky{
     background: var(--bg-color);
     color: var(--second-color);
     font-size: 14px;
-}
-.top i{
-    padding: 10px;
-    border-radius: 8px;
-    font-size: 15px;
-    color: var(--text-color);
-    background: var(--main-color);
 }
